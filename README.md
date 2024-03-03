@@ -18,7 +18,7 @@ The IMDb Mini Clone App is a web application that allows users to search for mov
 
 ### **How to Use:**
 
-1. Clone the repository: git clone https://github.com/JanardhanEJ/jana-imdb-mini-clone-application-project.git
+1. Clone the repository: git clone https://github.com/JanardhanEJ/janardhanej1906-imdb-mini-clone-application-project.git
 2. Open index.html in your web browser.
 3. Use the search bar on the home page to search for movies.
 4. Click on a particular movie to view its details.
@@ -51,4 +51,4 @@ All the values matching text will be displayed in search box list.
    ![alt text](image5.png)
 
 ### **Live Demo**
-Link: https://janardhanej.github.io/jana-imdb-mini-clone-application-project/
+Link: https://janardhanej.github.io/janardhanej1906-imdb-mini-clone-application-project/
