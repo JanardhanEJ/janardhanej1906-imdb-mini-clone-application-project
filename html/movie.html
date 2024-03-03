@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <!-- Title for our web page -->
+    <title>IMDB Movie Details</title>
+    <link rel="shortcut icon" href="../images/IMDB_logo_img.png" type="image/x-icon">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/movie.css">
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <!-- main Container -->
+    <div class="main-container">
+        <!-- logo container to navigate to IMDB home page and to Favourite Movie List web page -->
+        <div class="logo">
+            <div class="container nav-bar">
+                <a href="../index.html" id="logo">
+                    <img src="../images/home_page_icon.jpeg" alt=""><h3>Home Page</h3>
+                </a>
+                <a href="../html/favourite.html" id="fav">
+                    <img src="../images/favourite_img.png" alt="">
+                    <h3>Favorites Page</h3>
+                </a>
+            </div>
+        </div>
+        <!-- end of logo container -->
+
+        <!-- Result container -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                   <!-- All data related to specific movie selected from Search box list will be appended here -->
+                </div>
+                <button id="addToFav">Add to Favourites !!!</button>
+            </div>
+        </div>
+        <!-- End of result container -->
+
+    </div>
+    <!-- End of main container -->
+
+    <!-- JavaScript Source file (movie.js) for movie page -->
+    <script src="../javascript/movie.js"></script>
+</body>
+</html>

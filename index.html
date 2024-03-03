@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <!-- Title for our web page -->
+    <title>IMDB Mini Clone Application</title>   
+    <link rel="shortcut icon" href="images/IMDB_logo_img.png">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <!-- Main container for all the elements in this web page -->
+    <div class="main-container">
+
+        <!-- Logo/nav container to display IMDB image and navigate to Favourite Movie List web page -->
+        <div class="logo">
+            <div class="container nav-bar">
+                <a id="logo">
+                    <img src="images/IMDB_logo_img.png" alt="">
+                    <h3>Mini Clone App❄️🍿🎥🏢💿📽</h3>
+                </a>
+                <a href="html/favourite.html" id="fav">
+                    <img src="images/favourite_img.png" alt="">
+                    <h4>Favourite Movie List</h4>
+                </a>
+            </div>
+        </div>
+        <!-- End of Logo/nav container -->
+
+        <!-- Search container to search movies -->
+        <div class="search-container">
+            <div class="search-element">
+                <h1>Search Movie</h1>
+                <input type="text" placeholder="Enter Movie Title... !!!" class="form-control" id="movie-search-box">
+                <div class="search-list" id="search-list">
+                    <!-- This is the suggestion box list; inside which all similar movies will be displayed according to the user entered movie title in search box -->
+                </div>
+            </div>
+        </div>
+        <!-- End of search container -->
+
+        <!-- Image -->
+        <img src="images/imdb_homepage_img.jpg" alt="">
+
+    </div>
+    <!-- End of main container -->
+
+    <!-- JavaScript Source file (home.js) for home page -->
+    <script src="javascript/home.js"></script>
+</body>
+</html>

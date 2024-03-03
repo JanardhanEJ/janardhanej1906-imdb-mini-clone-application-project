@@ -1,0 +1,39 @@
+.result-container {
+    padding: 3rem 0;
+}
+
+.result-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(127, 134, 143);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.delete-btn{
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(193, 175, 10);
+    position: absolute;
+    bottom: 0.5%;
+    right: 0.5%;
+    cursor: pointer;
+}
+
+.empty-message-container {
+    color: aliceblue;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+  
