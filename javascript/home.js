@@ -78,7 +78,7 @@ const loadMovieDetails = () => {
       localStorage.setItem("movieID", movie.dataset.id); // Set movie id to localstorage to use it in movie.html
 
       //window.location.href = "/html/movie.html"; //Redirect to a new page
-      window.location.href = "../janardhanej1906-imdb-mini-clone-application-project/html/movie.html";
+      window.location.href = "../html/movie.html";
     });
   });
 };
